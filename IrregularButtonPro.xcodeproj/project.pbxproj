@@ -13,6 +13,9 @@
 		CBFFAF461DC21C93008F373A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBFFAF441DC21C93008F373A /* Main.storyboard */; };
 		CBFFAF481DC21C93008F373A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBFFAF471DC21C93008F373A /* Assets.xcassets */; };
 		CBFFAF4B1DC21C93008F373A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBFFAF491DC21C93008F373A /* LaunchScreen.storyboard */; };
+		CBFFAF541DC21D5A008F373A /* HXIrregularButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFFAF531DC21D5A008F373A /* HXIrregularButton.m */; };
+		CBFFAF571DC21DED008F373A /* UIColor+category.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFFAF561DC21DED008F373A /* UIColor+category.m */; };
+		CBFFAF591DC221A5008F373A /* button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBFFAF581DC221A5008F373A /* button@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		CBFFAF471DC21C93008F373A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBFFAF4A1DC21C93008F373A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBFFAF4C1DC21C93008F373A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBFFAF521DC21D5A008F373A /* HXIrregularButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXIrregularButton.h; sourceTree = "<group>"; };
+		CBFFAF531DC21D5A008F373A /* HXIrregularButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXIrregularButton.m; sourceTree = "<group>"; };
+		CBFFAF551DC21DED008F373A /* UIColor+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+category.h"; sourceTree = "<group>"; };
+		CBFFAF561DC21DED008F373A /* UIColor+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+category.m"; sourceTree = "<group>"; };
+		CBFFAF581DC221A5008F373A /* button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,11 @@
 		CBFFAF3A1DC21C93008F373A /* IrregularButtonPro */ = {
 			isa = PBXGroup;
 			children = (
+				CBFFAF581DC221A5008F373A /* button@2x.png */,
+				CBFFAF551DC21DED008F373A /* UIColor+category.h */,
+				CBFFAF561DC21DED008F373A /* UIColor+category.m */,
+				CBFFAF521DC21D5A008F373A /* HXIrregularButton.h */,
+				CBFFAF531DC21D5A008F373A /* HXIrregularButton.m */,
 				CBFFAF3E1DC21C93008F373A /* AppDelegate.h */,
 				CBFFAF3F1DC21C93008F373A /* AppDelegate.m */,
 				CBFFAF411DC21C93008F373A /* ViewController.h */,
@@ -140,6 +153,7 @@
 			files = (
 				CBFFAF4B1DC21C93008F373A /* LaunchScreen.storyboard in Resources */,
 				CBFFAF481DC21C93008F373A /* Assets.xcassets in Resources */,
+				CBFFAF591DC221A5008F373A /* button@2x.png in Resources */,
 				CBFFAF461DC21C93008F373A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,9 +165,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBFFAF571DC21DED008F373A /* UIColor+category.m in Sources */,
 				CBFFAF431DC21C93008F373A /* ViewController.m in Sources */,
 				CBFFAF401DC21C93008F373A /* AppDelegate.m in Sources */,
 				CBFFAF3D1DC21C93008F373A /* main.m in Sources */,
+				CBFFAF541DC21D5A008F373A /* HXIrregularButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
